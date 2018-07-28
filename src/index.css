@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.hello-world {
+  background-color: palegoldenrod;
+  color: rebeccapurple;
+}
+
+html,
+body,
+#root,
+.room {
+  height: 100%;
+  margin: 0;
+}
+
+.lit {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
