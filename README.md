@@ -26,3 +26,6 @@ git a
 
 [x] Did you notice that the first thing we did was initialize the state with an empty array of posts? Before we even fetched the data? Try taking out the initialization and watch what happens. Burn the resulting error message into your memory: when you see this again, remember to check if you've initialized state properly, and check for typos.
 [x] Extend the UI to include more data from the Reddit posts, like their score and the submitting user. Make the title into a link to the actual post.
+
+##Fifth Lesson
+[x]Deploy to surge. Link [here](https://build-pzfukcmztx.now.sh/)
