@@ -1,6 +1,6 @@
 #Author: Carlos Marchena
 
-Following David Ceddia's Pure React quick start course
+git a
 
 ##First Lesson covers: Imports, The 'Hi' Component, Rendering
 

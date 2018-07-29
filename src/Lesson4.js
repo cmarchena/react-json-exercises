@@ -4,16 +4,23 @@ class App extends Component {
   state = {
     posts: []
   };
+  // Async await syntax
   componentDidMount() {
-    /* fetch('https://www.reddit.com/r/reactjs.json')
-    .then(res => {
-      const posts = res.data.data.children.map(obj => obj.data);
-      this.setState({ posts });
-    }); */
+    const data = async () => {
+      const res = await fetch('https://www.reddit.com/r/reactjs.json');
+      const posts = await res.json();
+      console.log(posts);
+      this.setState({
+        posts: posts.data.children
+      });
+    };
+    data();
+  }
+  /*  componentDidMount() {
     fetch('https://www.reddit.com/r/reactjs.json')
       .then(res => res.json())
       .then(posts => this.setState({ posts: posts.data.children }));
-  }
+  } */
   render() {
     return (
       <div>
